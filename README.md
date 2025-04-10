@@ -39,15 +39,15 @@ The model architecture leverages ResNet-34 with additional modules for lane dete
      |-----------------------|----------|
      | Average F1 Score      | 0.56     |
      | Average Accuracy      | 0.99     |
-     | Inference Time (s/img)| 0.005432 | ```
+     | Inference Time (s/img)| 0.005432 | 
 ## Installation
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/lane-detection-resnet.git
-   cd lane-detection-resnet```
+   cd lane-detection-resnet
 2. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
 ## Future Work
 - Improving F1 score and smoother lane plotting
 - Add support for CULane and BDD100K datasets
